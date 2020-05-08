@@ -39,7 +39,17 @@
 
 // Solution 2 - using the reduce helper
 function reverse(str) {
+    debugger;
     return str.split('').reduce((reversed, char) => char + reversed, '');
 }
+reverse('love')
 
+
+// Debugger steps
+// 1. Call the function manually
+// 2. At the terminal, run: node inspect index.js
+// 3. Continue execute of the file, press 'c' then enter
+// 4. Use 'repl' then enter to lauch the session
+// 5. To exit press control + 'C'
+ 
 module.exports = reverse;
